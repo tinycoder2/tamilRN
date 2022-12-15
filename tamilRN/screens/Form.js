@@ -11,7 +11,7 @@ import {
 } from "react-native";
 import Constants from "expo-constants";
 
-const baseUrl = "http://192.168.1.4:8000/testApp/reports/";
+const baseUrl = "url";
 
 const Form = () => {
   const [title, setTitle] = useState("");

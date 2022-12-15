@@ -19,7 +19,7 @@ const CameraPreview = ({ photo, setImage }) => {
     }
 
     // FORMS
-    const baseUrl = "http://192.168.0.173:8000/testApp/reports/";
+    const baseUrl = "url";
     const [isLoading, setIsLoading] = useState(false);
 
     const onSubmitFormHandler = async (event) => {

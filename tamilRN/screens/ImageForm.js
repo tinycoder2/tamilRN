@@ -19,7 +19,7 @@ const ImageForm = () => {
         const blob = await resp.blob();
         var reader = new FileReader();
         reader.onload = () => {
-            var InsertAPI = "http://192.168.0.173:8000/testApp/reports/";
+            var InsertAPI = "url";
             var Data = { title: "testFrom", imgage_url: reader.result };
             var headers = {
                 'Accept': 'application/json',
